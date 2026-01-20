@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addition(a,b){
+            return sum=a+b;
+            console.log(sum);
+        }
+        
+        console.log(addition(2,3));
+        //Arrow function
+        addition2=()=>(a,b){
+        var c=a+b;
+        console.log("Hello arrow addition",c);
+    }
+    addition2(10,20);
+
+    addition3=(a,b)=>console.log("addition of two numbers",  a+b);
+addition3(10,30);
+    </script>
+</head>
+<body>
+    
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+h2{
+    background-color: brown;
+    color: yellowgreen;
+    text-align: center;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.class1{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+body{
+    background-color: antiquewhite;
+}
+h4{
+    color: blueviolet;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+

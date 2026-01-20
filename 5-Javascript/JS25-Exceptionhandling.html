@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function divide(a,b){
+            try{
+                console.log("one");
+                if(b==0){
+                    throw new error("Divide by zero is not allowed")
+                }
+                let result=a/b;
+                console.log(result);
+                console.log("end");
+            }
+            catch (error){
+                console.error("Program is error",error)
+            }
+            }
+            divide(10,0);
+        
+    </script>
+</head>
+<body>
+    <h1>function parameters</h1>
+    
+</body>
+</html>

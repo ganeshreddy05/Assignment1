@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //define the api url we want the data from
+        const url ='https://jsonplaceholder.typicode.com/posts';
+        //call fetch() to request data from the given url
+        fetch(url)
+        //First .then() handles the response object 
+        .then(function(resganesh){
+            //check if the respnse status is ok or not ok(like 404,500,etc)
+            if(!resganesh.ok){
+                //if not ok throw new error
+                throw new error('error fetch data : ganesh');
+                
+            }
+            //if response is ok then convert it into json
+            return resganesh.json();
+        })
+        //second .then()handles the data
+        .then(function(data){
+            //log the etched data into console
+            console.log('Data from the api',data);
+        })
+        //.catch()handles any error that occurs in fetch or .then()
+        .catch(function(error){
+            //log the error messsge in the console
+            console.error('hello error :',error)
+                  });
+
+                
+
+            
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

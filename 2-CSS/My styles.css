@@ -1,0 +1,14 @@
+body,h1,h2,h3,ul,li{
+    margin: 5;
+    padding: 5;
+}
+h1{
+    background-color: red;
+    color: brown;
+}
+body{
+    background-color: pink;
+}
+body{
+    font-family:'Courier New', Courier, monospace
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Chefs | Foodies Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .chefs-hero {
+      background:url('https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover;
+      height: 60vh;
+      display: flex; justify-content: center; align-items: center;
+      color: #fff; text-align: center;
+    }
+    .chefs-hero h1 {
+      font-size: 3rem;
+      animation: fadeInUp 2s ease forwards;
+    }
+    .chefs-container {
+      display: flex; flex-wrap: wrap; gap: 30px;
+      justify-content: center;
+      padding: 50px 20px;
+    }
+    .chef-card {
+      background: #fff;
+      width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease;
+      animation: fadeInUp 2s ease forwards;
+    }
+    .chef-card:hover {
+      transform: translateY(-10px);
+    }
+    .chef-card img {
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .chef-card h3 {
+      color: #e63946;
+      margin-bottom: 5px;
+    }
+    .chef-card p {
+      color: #555;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Food <span>World</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="chefs.html" class="active">Chefs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="chefs-hero">
+    <h1>Meet Our <span>Chefs</span></h1>
+  </section>
+  <section>
+    <div class="chefs-container">
+
+    
+      <div class="chef-card">
+        <img src="nagesh.jpg.jpeg" alt="nagesh">
+        <h3>Nagesh Reddy</h3>
+        <p><b>Head Chef - Italian Cuisine</b></p>
+        <p>With 20+ years of experience, Chef Nagesh specializes in authentic Italian pasta, pizzas, and gourmet dishes that capture the essence of Italy.</p>
+      </div>
+      <div class="chef-card">
+        <img src="sathwik.jpg.jpeg" alt="sathwik">
+        <h3>Sathwik Reddy</h3>
+        <p><b>Pastry Chef - French Desserts</b></p>
+        <p>Chef Sathwik creates delightful French pastries, from macarons to croissants, combining elegance with exquisite taste.</p>
+      </div>
+
+
+      <div class="chef-card">
+        <img src="harish.jpg.jpeg" alt="harish">
+        <h3>Ganesh Reddy</h3>
+        <p><b>Indian Spices Expert</b></p>
+        <p>Known for his mastery of spices, Chef David crafts flavorful curries, biryanis, and tandoori dishes with authentic Indian tradition.</p>
+      </div>
+
+      <div class="chef-card">
+        <img src="ganesh.jpg.jpeg" alt="ganesh">
+        <h3>Harish Reddy</h3>
+        <p><b>Seafood Specialist</b></p>
+        <p>Chef Harish brings fresh ocean flavors to life with her signature seafood dishes, from grilled salmon to paella.</p>
+      </div>
+
+      
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Foodies Hub. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

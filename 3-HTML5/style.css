@@ -1,0 +1,85 @@
+h1,h2,header,nav{
+background-color:yellowgreen;
+    color: brown;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+}
+img{
+    height: 50px;
+    width: 212px;
+    
+}
+.div1{
+    text-align: center;
+    background-image: url(mlrd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    font-size:x-large;
+    font-weight: bolder;
+    color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+     border: 2px solid white;
+}
+
+h4{
+    color: red;
+}
+h2{
+    color: white;
+}
+
+footer{
+    background-color: yellowgreen;
+    color: brown;
+    text-decoration: solid;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.class1{
+    padding-right: 200px;
+    color:red;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.class2{
+    padding-right :300px;
+    color:red;
+    font-size: large;
+    font-weight: bolder;
+}
+.class3{
+    font-size: large;
+    padding-left: 200px;
+    color:red;
+    font-weight: bolder;
+}
+.class4{
+    padding-left: 300px;
+    color:red;
+    font-size: large;
+    font-weight: bolder;
+}
+body{
+    background-color:black;
+}
+nav{
+    border: 2px solid white;
+}
+]

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkage(age){
+            if(age<18){
+                throw "age must be 18 or older";
+            }
+            return "Access granted"
+        }
+        try{
+            let result=checkage(15);
+            document.write(result);
+        }
+            catch (err){
+                document.write("caught exception ganesh:" +err);
+        
+            }
+            finally{
+                document.write("<br> the end");
+            }
+        
+    </script>
+    
+</body>
+</html>

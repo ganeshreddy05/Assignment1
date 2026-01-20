@@ -1,0 +1,30 @@
+h1{
+    background-color: blueviolet;
+    color: red;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ul{
+    color: orangered;
+}
+body{
+    background-color: antiquewhite;
+}
+li{
+    font-size: larger;
+    font-weight: bolder;
+}
+.image{
+    position:absolute;
+    top: 50%;
+    right: 20%;
+    transform: translatey(-70%);
+}
+.submit{
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}

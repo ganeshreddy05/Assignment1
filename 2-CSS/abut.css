@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    text-decoration:dashed;
+    text-shadow: 0cap;
+    color:orange;
+    background-color: aquamarine;
+}
+p{
+    color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+.numbers{
+    text-align:center;
+}
+li{
+    font-size:larger;
+    color: green;
+}
+body{
+    background-color: bisque;
+}
